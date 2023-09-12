@@ -1,0 +1,14 @@
+<div class="row">
+  <form method="POST" action="/todos">
+    <div class="input-group mb-3">
+      <input class="form-control" 
+        type="text" 
+        placeholder="Add a new todo" 
+        name="todo" 
+        value='$(params(:todo, ""))' />
+      <input class="btn btn-outline-secondary" 
+        type="submit" 
+        value="Add">
+    </div>
+  </form>
+</div>
